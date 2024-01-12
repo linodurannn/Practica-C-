@@ -1,16 +1,17 @@
+// Fecha: 2024 - 01 - 12 
 #include <iostream>
 using namespace std;
 
 int main(int argc, char *argv[]) {
 	// Declaración y uso de bool. 
-	bool b0;
-	b0 = true;
+	bool b0; // Nombre de bool
+	b0 = true; // Bool es igual a verdadero. 
 	cout << "Variable con valor TRUE:" <<b0 <<endl; 
-	b0= false;
+	b0= false; // Bool es igual a falso. 
 	cout << "Variable con valor FALSE:" <<b0 <<endl; 
 	// Asignacion de valores numericos. 
 	// Si es cero es FALSO, Si es diferente de cero es VERDADERO. 
-	b0 = 0; //El valor se vera con false. 
+	b0 = 0; //El valor se vera con flase. 
 	cout << "Variable con valor 0:" <<b0 <<endl;
 	b0 = 1; //El valor se vera como true.
 	cout << "Variable con valor 1:" <<b0 <<endl;
