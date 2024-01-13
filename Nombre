@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	// Declaracion de una cadena de caracteres.
+	char nombre[] = "LINO";
+	cout <<"Imprimiendo el nombre:" <<nombre <<endl;
+	cout <<"Imprimiendo el nombre[0]:" <<nombre [0] <<endl;
+	cout <<"Imprimiendo el nombre[1]:" <<nombre [1] <<endl;
+	cout <<"Imprimiendo el nombre[2]:" <<nombre [2]<<endl;
+	cout <<"Imprimiendo el nombre[3]:" <<nombre [3]<<endl;
+	nombre[0] = 'L';
+	nombre[1] = 'I';
+	nombre[2] = 'N';
+	nombre[3] = 'O';
+	cout <<"Imprimiendo el nombre:" <<nombre <<endl;
+	return 0;
+}
