@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(int argc, char *argv[]) {
+	// Solicitar un número y verificar si es par o impar. 
+	// MOD en c++ se utiliza %. 
+	int numero;
+	cout<<"Ingrese un numero para determinar si es PAR o IMPAR: ";
+	cin>>numero;
+	if (numero % 2 == 0) 
+	{
+		cout << numero << " es un número par." <<endl;
+	} 
+	else 
+	{
+		cout << numero << " es un número impar." <<endl;
+	}
+	return 0;
+}
