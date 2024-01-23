@@ -10,8 +10,8 @@ int suma(int num1, int num2) {
 }
 
 int main() {
-	// Variables para almacenar los numeros ingresados.
-	int numero1, numero2;
+	// Variables para almacenar los numeros ingresados por el usuario
+	int num1, num2;
 	
 	// Solicitar que ingrese el primer numero
 	cout << "Ingrese el primer numero: ";
@@ -25,7 +25,7 @@ int main() {
 	int resultado = suma(num1, num2);
 	
 	// Mostrar el resultado de la suma
-	cout << "La suma de " << numero1 << " y " << numero2 << " es: " << resultado << endl;
+	cout << "La suma de " << num1 << " y " << num2 << " es: " << resultado << endl;
 	
 	return 0;
 }
