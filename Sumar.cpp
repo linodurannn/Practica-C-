@@ -10,7 +10,6 @@ int suma(int num1, int num2) {
 }
 
 int main() {
-	// Variables para almacenar los numeros ingresados por el usuario
 	int num1, num2;
 	
 	// Solicitar que ingrese el primer numero
